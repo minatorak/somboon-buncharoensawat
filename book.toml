@@ -1,0 +1,44 @@
+[book]
+authors = ["ครอบครัวบุญเจริญสวัสดิ์"]
+language = "th"
+multilingual = false
+src = "src"
+title = "หนังสืออนุสรณ์งานพระราชทานเพลิงศพ นายสมบูรณ์ บุญเจริญสวัสดิ์"
+description = "หนังสืออนุสรณ์งานพระราชทานเพลิงศพ นายสมบูรณ์ บุญเจริญสวัสดิ์ (พ.ศ. 2466-2567)"
+
+[output.html]
+default-theme = "light"
+preferred-dark-theme = "navy"
+git-repository-url = "https://github.com/yourusername/somboon-buncharoensawat"
+edit-url-template = "https://github.com/yourusername/somboon-buncharoensawat/edit/main/{path}"
+site-url = "/somboon-buncharoensawat/"
+no-section-label = true
+additional-css = ["./theme/custom.css"]
+additional-js = ["./theme/custom.js"]
+
+[output.html.print]
+enable = true
+page-break = true
+
+[output.html.fold]
+enable = true
+level = 0
+
+[preprocessor.katex]
+after = ["links"]
+
+[preprocessor.toc]
+command = "mdbook-toc"
+renderer = ["html"]
+
+[output.html.search]
+enable = true
+limit-results = 30
+teaser-word-count = 30
+use-boolean-and = true
+boost-title = 2
+boost-hierarchy = 1
+boost-paragraph = 1
+expand = true
+heading-split-level = 3
+copy-js = true
