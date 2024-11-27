@@ -3,18 +3,13 @@ authors = ["ครอบครัวบุญเจริญสวัสดิ�
 language = "th"
 multilingual = false
 src = "src"
-title = "หนังสืออนุสรณ์งานพระราชทานเพลิงศพ นายสมบูรณ์ บุญเจริญสวัสดิ์"
-description = "หนังสืออนุสรณ์งานพระราชทานเพลิงศพ นายสมบูรณ์ บุญเจริญสวัสดิ์ (พ.ศ. 2466-2567)"
+title = "งานณาปณกิจศพ นายสมบูรณ์ บุญเจริญสวัสดิ์"
+description = "รายละเอียดนายสมบูรณ์ บุญเจริญสวัสดิ์ (พ.ศ. 2567)"
 
 [output.html]
-default-theme = "light"
-preferred-dark-theme = "navy"
-git-repository-url = "https://github.com/yourusername/somboon-buncharoensawat"
-edit-url-template = "https://github.com/yourusername/somboon-buncharoensawat/edit/main/{path}"
+default-theme = "navy"
 site-url = "/somboon-buncharoensawat/"
 no-section-label = true
-additional-css = ["./theme/custom.css"]
-additional-js = ["./theme/custom.js"]
 
 [output.html.print]
 enable = true
@@ -33,8 +28,6 @@ renderer = ["html"]
 
 [output.html.search]
 enable = true
-limit-results = 30
-teaser-word-count = 30
 use-boolean-and = true
 boost-title = 2
 boost-hierarchy = 1
